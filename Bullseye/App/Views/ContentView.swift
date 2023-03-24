@@ -11,7 +11,7 @@ struct ContentView: View {
 	@State private var alertIsVisible = false
 	@State private var sliderValue = 50.0
 	@State private var game = Game()
-
+	
 	var body: some View {
 		ZStack {
 			Color("BackgroundColor")
@@ -63,9 +63,9 @@ struct ContentView: View {
 					message: {
 						let roundedValue = Int(sliderValue.rounded())
 						Text("""
-							The slider's value is \(roundedValue).
-							You scored \(game.points(sliderValue: roundedValue)) points this round!
-						""")
+			 The slider's value is \(roundedValue).
+			 You scored \(game.points(sliderValue: roundedValue)) points this round!
+			""")
 					}
 				)
 			}
