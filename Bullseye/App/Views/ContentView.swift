@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Bullseye
+//  Bullseye App
 //
 //  Created by Shelton Brown on 3/23/23.
 //
