@@ -17,23 +17,17 @@ struct ContentView: View {
 			Color("BackgroundColor")
 				.ignoresSafeArea()
 			VStack {
-				Text("Put the slider as close as you can to".uppercased())
-					.bold()
-					.multilineTextAlignment(.center)
-					.lineSpacing(4.0)
-					.font(.footnote)
-					.kerning(2.0)
+				InstructionText(text: "Put the Bullseye as close as you can to")
 					.padding(.horizontal, 30)
-				Text(String(game.target))
-					.kerning(-1.0)
-					.font(.largeTitle)
-					.fontWeight(.black)
+				BigNumberText(text: String(game.target))
 				HStack {
 					Text("1")
 						.bold()
+						.foregroundColor(Color("TextColor"))
 					Slider(value: $sliderValue, in: 1.0...100.0)
 					Text("100")
 						.bold()
+						.foregroundColor(Color("TextColor"))
 				}
 				.padding()
 				Button("Hit me".uppercased()) {
@@ -63,15 +57,17 @@ struct ContentView: View {
 					message: {
 						let roundedValue = Int(sliderValue.rounded())
 						Text("""
-			 The slider's value is \(roundedValue).
-			 You scored \(game.points(sliderValue: roundedValue)) points this round!
-			""")
+The slider's value is \(roundedValue).
+ You scored \(game.points(sliderValue: roundedValue)) points this round!
+""")
+						.foregroundColor(Color("TextColor"))
 					}
 				)
 			}
 		}
 	}
 }
+
 
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
