@@ -17,9 +17,7 @@ struct ContentView: View {
 			Color("BackgroundColor")
 				.ignoresSafeArea()
 			VStack {
-				InstructionText(text: "Put the Bullseye as close as you can to")
-					.padding(.horizontal, 30)
-				BigNumberText(text: String(game.target))
+				InstructionsView(game: $game)
 				HStack {
 					Text("1")
 						.bold()
@@ -64,6 +62,18 @@ The slider's value is \(roundedValue).
 					}
 				)
 			}
+		}
+	}
+}
+
+struct InstructionsView: View {
+	@Binding var game: Game
+	
+	var body: some View {
+		VStack {
+			InstructionText(text: "Put the Bullseye as close as you can to")
+				.padding(.horizontal, 30)
+			BigNumberText(text: String(game.target))
 		}
 	}
 }
