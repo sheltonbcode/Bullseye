@@ -3,6 +3,7 @@
 //  Bullseye App
 //
 //  Created by Shelton Brown on 3/23/23.
+// 	A Kodeco project.
 
 import SwiftUI
 
@@ -92,12 +93,12 @@ You scored \(game.points(sliderValue: roundedValue)) points this round!
 		)
 	}
 }
-		struct ContentView_Previews: PreviewProvider {
-			static var previews: some View {
-				ContentView()
-					.previewDevice("iPhone 14 Pro")
-				ContentView()
-					.preferredColorScheme(.dark)
-					.previewDevice("iPhone 14 Pro")
-			}
-		}
+struct ContentView_Previews: PreviewProvider {
+	static var previews: some View {
+		ContentView()
+			.previewDevice("iPhone 14 Pro")
+		ContentView()
+			.preferredColorScheme(.dark)
+			.previewDevice("iPhone 14 Pro")
+	}
+}
