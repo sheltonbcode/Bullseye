@@ -17,6 +17,7 @@
 		0F8BDC4C29CD073B004EAA8E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BDC4B29CD073B004EAA8E /* Game.swift */; };
 		0F8BDC6429CD0DB6004EAA8E /* BullseyeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BDC6329CD0DB6004EAA8E /* BullseyeTest.swift */; };
 		0FAF55AF29CEC7530029D43A /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF55AE29CEC7530029D43A /* TextViews.swift */; };
+		0FF8487F29DF66AA00B1138E /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8487E29DF66AA00B1138E /* PointsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0F8BDC6329CD0DB6004EAA8E /* BullseyeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTest.swift; sourceTree = "<group>"; };
 		0FAF55AD29CE52E80029D43A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FAF55AE29CEC7530029D43A /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		0FF8487E29DF66AA00B1138E /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				0F1D39DA29DDF3560071DF6F /* Shapes.swift */,
 				0F1D39DE29DDFF0F0071DF6F /* RoundedViews.swift */,
 				0F1D39E029DE12690071DF6F /* BackgroundView.swift */,
+				0FF8487E29DF66AA00B1138E /* PointsView.swift */,
 			);
 			name = Views;
 			path = App/Views;
@@ -288,6 +291,7 @@
 				0F1D39DF29DDFF0F0071DF6F /* RoundedViews.swift in Sources */,
 				0F8BDC3D29CD05A3004EAA8E /* ContentView.swift in Sources */,
 				0FAF55AF29CEC7530029D43A /* TextViews.swift in Sources */,
+				0FF8487F29DF66AA00B1138E /* PointsView.swift in Sources */,
 				0F1D39E129DE12690071DF6F /* BackgroundView.swift in Sources */,
 				0F1D39DB29DDF3560071DF6F /* Shapes.swift in Sources */,
 				0F8BDC4C29CD073B004EAA8E /* Game.swift in Sources */,
