@@ -18,6 +18,7 @@
 		0F8BDC6429CD0DB6004EAA8E /* BullseyeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BDC6329CD0DB6004EAA8E /* BullseyeTest.swift */; };
 		0FAF55AF29CEC7530029D43A /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF55AE29CEC7530029D43A /* TextViews.swift */; };
 		0FF8487F29DF66AA00B1138E /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8487E29DF66AA00B1138E /* PointsView.swift */; };
+		0FF8488129DFA13700B1138E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8488029DFA13700B1138E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0FAF55AD29CE52E80029D43A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FAF55AE29CEC7530029D43A /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		0FF8487E29DF66AA00B1138E /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		0FF8488029DFA13700B1138E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				0F8BDC4B29CD073B004EAA8E /* Game.swift */,
+				0FF8488029DFA13700B1138E /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				0F1D39DB29DDF3560071DF6F /* Shapes.swift in Sources */,
 				0F8BDC4C29CD073B004EAA8E /* Game.swift in Sources */,
 				0F8BDC3B29CD05A3004EAA8E /* BullseyeApp.swift in Sources */,
+				0FF8488129DFA13700B1138E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
