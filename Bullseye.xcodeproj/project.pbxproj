@@ -19,6 +19,7 @@
 		0FAF55AF29CEC7530029D43A /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF55AE29CEC7530029D43A /* TextViews.swift */; };
 		0FF8487F29DF66AA00B1138E /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8487E29DF66AA00B1138E /* PointsView.swift */; };
 		0FF8488129DFA13700B1138E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8488029DFA13700B1138E /* Constants.swift */; };
+		0FF8488329E0822900B1138E /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8488229E0822900B1138E /* LeaderboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0FAF55AE29CEC7530029D43A /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		0FF8487E29DF66AA00B1138E /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 		0FF8488029DFA13700B1138E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0FF8488229E0822900B1138E /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				0F1D39DE29DDFF0F0071DF6F /* RoundedViews.swift */,
 				0F1D39E029DE12690071DF6F /* BackgroundView.swift */,
 				0FF8487E29DF66AA00B1138E /* PointsView.swift */,
+				0FF8488229E0822900B1138E /* LeaderboardView.swift */,
 			);
 			name = Views;
 			path = App/Views;
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF8488329E0822900B1138E /* LeaderboardView.swift in Sources */,
 				0F1D39DF29DDFF0F0071DF6F /* RoundedViews.swift in Sources */,
 				0F8BDC3D29CD05A3004EAA8E /* ContentView.swift in Sources */,
 				0FAF55AF29CEC7530029D43A /* TextViews.swift in Sources */,
