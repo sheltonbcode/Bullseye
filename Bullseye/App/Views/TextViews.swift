@@ -74,7 +74,7 @@ struct ButtonText: View {
 		Text(text)
 			.bold()
 			.padding()
-			.frame(maxWidth: .infinity)
+			.frame(maxWidth: 275)
 			.background(
 				Color.accentColor
 			)
